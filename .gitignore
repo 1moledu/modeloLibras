@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Modelo baixado automaticamente pelo MediaPipe
+hand_landmarker.task
+
+# Fotos brutas de coleta (costumam ficar pesadas)
+dataset/fotos/
+
+# Opcional: descomente as linhas abaixo se nao quiser subir o dataset ou o modelo treinado
+# dataset/amostras.csv
+# modelo.joblib
